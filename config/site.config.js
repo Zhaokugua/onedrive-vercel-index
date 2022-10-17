@@ -11,7 +11,7 @@ module.exports = {
 
   // [OPTIONAL] This is the website icon to the left of the title inside the navigation bar. It should be placed under the
   // /public directory of your GitHub project (not your OneDrive folder!), and referenced here by its relative path to /public.
-  icon: 'https://blog.jixiaob.cn/favicon.ico',
+  icon: '/icons/64.png',
 
   // Prefix for KV Storage
   kvPrefix: process.env.KV_PREFIX || '',
@@ -42,7 +42,7 @@ module.exports = {
 
   // [OPTIONAL] This is where you specify the folders that are password protected. It is an array of paths pointing to all
   // the directories in which you have .password set. Check the documentation for details.
-  protectedRoutes: ['/🌞 Private folder/u-need-a-password', '/🥟 Some test files/Protected route'],
+  protectedRoutes: ['/MoeACG', '学习-Study/Class', 'Files/喵喵'],
 
   // [OPTIONAL] Use "" here if you want to remove this email address from the nav bar.
   email: 'mailto:zkg@jixiaob.cn',
@@ -58,6 +58,14 @@ module.exports = {
     {
       name: 'Telegram',
       link: 'https://t.me/zhaokugua',
+    },
+    {
+      name: 'QQ',
+      link: 'http://wpa.qq.com/msgrd?v=3&uin=1066168689&site=qq&menu=yes',
+    },
+    {
+      name: '博客',
+      link: 'https://blog.jixiaob.cn/',
     },
   ],
 

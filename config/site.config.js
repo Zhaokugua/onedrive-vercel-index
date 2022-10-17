@@ -64,7 +64,7 @@ module.exports = {
       link: 'http://wpa.qq.com/msgrd?v=3&uin=1066168689&site=qq&menu=yes',
     },
     {
-      name: 'Blog',
+      name: 'blog',
       link: 'https://blog.jixiaob.cn/',
     },
   ],
